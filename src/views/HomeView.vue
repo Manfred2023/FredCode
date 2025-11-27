@@ -11,8 +11,10 @@
         <div class="hidden md:flex items-center justify-between gap-6">
           <h2>Home</h2>
           <h2>Service</h2>
-          <h2>Partner</h2>
-          <h2>About Us</h2>
+          <h2>Project</h2>
+          <h2>Pricing</h2>
+          <h2>Bloc</h2>
+          <h2>Contact</h2>
         </div>
         <div
           class="text-green-600 hover:text-onPrimary hover:bg-yellowCustom bg-onSecondary p-2 rounded font-bold flex gap-2 cursor-pointer"
@@ -142,7 +144,7 @@
     </div>
   </div>
   <!-- Our project -->
-  <div class="bg-gray-300">
+  <div class="bg-grayCustom">
     <div class="max-w-[1280px] mx-auto items-center p-10">
       <div class="flex justify-center">
         <p class="font-bold text-2xl">Our Projects</p>
@@ -361,6 +363,46 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <!--About -->
+  <div class="bg-onSecondary">
+    <div class="max-w-[1280px] mx-auto items-center p-10">
+      <div class="flex justify-center">
+        <p class="font-bold text-2xl">About</p>
+      </div>
+    </div>
+  </div>
+  <!-- why chose use-->
+  <div class="bg-grayCustom">
+    <div class="max-w-[1280px] mx-auto items-center p-10">
+      <div class="flex justify-center">
+        <p class="font-bold text-2xl">Why choose us</p>
+      </div>
+    </div>
+  </div>
+  <!-- process-->
+  <div class="bg-onSecondary">
+    <div class="max-w-[1280px] mx-auto items-center p-10">
+      <div class="flex justify-center">
+        <p class="font-bold text-2xl">Process</p>
+      </div>
+    </div>
+  </div>
+  <!-- process-->
+  <div class="bg-grayCustom">
+    <div class="max-w-[1280px] mx-auto items-center p-10 ">
+      <div class="flex justify-center">
+        <p class="font-bold text-2xl">Testimonial</p>
+      </div>
+    </div>
+  </div>
+  <!-- FAQ-->
+  <div class="bg-onSecondary">
+    <div class="max-w-[1280px] mx-auto items-center p-10 ">
+      <div class="flex justify-center">
+        <p class="font-bold text-2xl">FAQ</p>
       </div>
     </div>
   </div>
