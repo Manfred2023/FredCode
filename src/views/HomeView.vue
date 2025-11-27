@@ -147,6 +147,221 @@
       <div class="flex justify-center">
         <p class="font-bold text-2xl">Our Projects</p>
       </div>
+      <p class="font-bold"> Self : </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-onPrimary w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-onPrimary rounded">
+                <p class="font-bold p-2 text-2xl text-onSecondary">V</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">VotMe +</h1>
+                <h1 class="font-light">Web application</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>
+                paid and free voting web application for beauty pageants, etc.
+              </p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-amber-800 w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-amber-800 rounded">
+                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">Toke</h1>
+                <h1 class="font-light">IMEDIATIS SARL</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>Application for managing attendance and leave requests</p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-primary w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-primary">
+                <p class="font-bold p-2 text-2xl text-onSecondary">P</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">Pricera</h1>
+                <h1 class="font-light">IMEDIATIS SARL</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>Application for tracking the price and competitive environment</p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="font-bold"> Collaborations : </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-onPrimary w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-onPrimary rounded">
+                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">Topup +</h1>
+                <h1 class="font-light">IMEDIATIS SARL</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>
+                Mobile application for performing Canal+ activities, resubscribing, adding options,
+                upgrading
+              </p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-amber-800 w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-amber-800 rounded">
+                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">Toke</h1>
+                <h1 class="font-light">IMEDIATIS SARL</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>Application for managing attendance and leave requests</p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5">
+          <div class="bg-onSecondary rounded">
+            <div class="bg-primary w-full h-35 justify-center flex items-center rounded">
+              <p class="text-onSecondary">Photo du project</p>
+            </div>
+            <div class="p-5 flex gap-2">
+              <div class="bg-primary">
+                <p class="font-bold p-2 text-2xl text-onSecondary">P</p>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl">Pricera</h1>
+                <h1 class="font-light">IMEDIATIS SARL</h1>
+              </div>
+            </div>
+            <div class="px-5 pb-2">
+              <p>Application for tracking the price and competitive environment</p>
+            </div>
+            <div class="flex px-5 gap-2 pb-2">
+              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
+                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
+                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
+              </a>
+            </div>
+            <div class="p-4">
+              <div
+                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
+              >
+                <p class="font-bold text-xl p-2">View more...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- footer -->
@@ -206,23 +421,32 @@
         <div class="flex flex-col pt-5 md:pt-0">
           <h1 class="text-2xl font-bold text-onSecondary">Demander un devis</h1>
           <div class="pt-2 gap-2 grid">
-           <div class="grid grid-cols-1 md:grid-cols-2 gap-3 cursor-pointer pt-2">
-             <input class="border border-onSecondary p-2 rounded text-onSecondary" placeholder="First name">
-             <input class="border border-onSecondary p-2 rounded text-onSecondary" placeholder="Last name">
-           </div>
-           <div class="grid grid-cols-1">
-            <input class="border border-onSecondary p-2 rounded text-onSecondary" placeholder="Email address" type="email">
-           </div>
-            <div class="grid ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 cursor-pointer pt-2">
+              <input
+                class="border border-onSecondary p-2 rounded text-onSecondary"
+                placeholder="First name"
+              />
+              <input
+                class="border border-onSecondary p-2 rounded text-onSecondary"
+                placeholder="Last name"
+              />
+            </div>
+            <div class="grid grid-cols-1">
+              <input
+                class="border border-onSecondary p-2 rounded text-onSecondary"
+                placeholder="Email address"
+                type="email"
+              />
+            </div>
+            <div class="grid">
               <textarea
                 class="border border-onSecondary p-2 rounded text-onSecondary"
                 placeholder="Describe your idea"
                 rows="4"
               ></textarea>
-
             </div>
           </div>
-          <div class="pt-5 w-full  justify-center">
+          <div class="pt-5 w-full justify-center">
             <div
               class="text-green-600 hover:text-onPrimary hover:bg-yellowCustom bg-onSecondary p-2 rounded font-bold flex justify-center gap-2 cursor-pointer"
             >
@@ -241,14 +465,10 @@
 
   <!-- copyWrite -->
   <div class="bg-yellowCustom">
-    <div  class="max-w-[1280px] mx-auto items-center p-2">
+    <div class="max-w-[1280px] mx-auto items-center p-2">
       <div class="flex flex-col md:flex-row items-center justify-center md:justify-between">
         <p>2025 FredCode. Tous droits réservés.</p>
-        <p>
-          Développé et hébergé par.<span class="font-bold cursor-pointer">
-                  FredCode Sarl</span
-        >
-        </p>
+        <p>Développé et hébergé par.<span class="font-bold cursor-pointer"> FredCode Sarl</span></p>
       </div>
     </div>
   </div>
