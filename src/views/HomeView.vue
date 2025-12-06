@@ -2,31 +2,32 @@
 </script>
 
 <template>
-  <!-- Ours Header -->
+  <!-- Our Header -->
   <div class="bg-primary">
     <div class="max-w-[1280px] mx-auto items-center">
-      <!-- Header with logo and WhatsApp link -->
-      <div class="flex items-center justify-between text-onSecondary p-5">
+      <!-- Header with logo and WhatsApp link sticky top-0 z-50-->
+      <div class="flex items-center justify-between text-onSecondary p-5 ">
         <div class="text-2xl font-bold"><h2>FredCode</h2></div>
-        <div class="hidden md:flex items-center justify-between gap-6">
-          <h2>Home</h2>
-          <h2>Service</h2>
-          <h2>Project</h2>
-          <h2>Pricing</h2>
-          <h2>Bloc</h2>
-          <h2>Contact</h2>
-        </div>
-        <div
-          class="text-green-600 hover:text-onPrimary hover:bg-yellowCustom bg-onSecondary p-2 rounded font-bold flex gap-2 cursor-pointer"
-        >
-          <img src="../assets/icon/whatsapp.svg" alt="Logo" class="w-6 h-6" />
-          <a
-            href="https://wa.me/237672846994?text=Salut%20FredCode%2C%20j'ai%20besoin%20de%20vos%20prestations"
-            target="_blank"
-          >
-            WhatsApp
-          </a>
-        </div>
+       <div class="flex gap-4 cursor-pointer">
+         <div class="hidden md:flex items-center justify-between gap-6">
+           <h2>HOME</h2>
+           <h2>SERVICE</h2>
+           <h2>PROJECT</h2>
+           <h2>BLOC</h2>
+           <h2>CONTACT</h2>
+         </div>
+         <div
+           class="text-green-600 hover:text-onPrimary hover:bg-yellowCustom bg-onSecondary p-2 rounded font-bold flex gap-2 cursor-pointer"
+         >
+           <img src="../assets/icon/whatsapp.svg" alt="Logo" class="w-6 h-6" />
+           <a
+             href="https://wa.me/237672846994?text=Salut%20FredCode%2C%20j'ai%20besoin%20de%20vos%20prestations"
+             target="_blank"
+           >
+             WhatsApp
+           </a>
+         </div>
+       </div>
       </div>
       <!-- little presentation for  -->
       <section
@@ -145,223 +146,77 @@
   </div>
   <!-- Our project -->
   <div class="bg-grayCustom">
-    <div class="max-w-[1280px] mx-auto items-center p-10">
+    <div class="max-w-[1280px] mx-auto items-center p-10 text-center ">
       <div class="flex justify-center">
-        <p class="font-bold text-2xl">Our Projects</p>
+        <p class="font-bold text-2xl">Project Available</p>
       </div>
-      <p class="font-bold"> Self : </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-onPrimary w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-onPrimary rounded">
-                <p class="font-bold p-2 text-2xl text-onSecondary">V</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">VotMe +</h1>
-                <h1 class="font-light">Web application</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>
-                paid and free voting web application for beauty pageants, etc.
-              </p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+      <div class="pt-2"><p>Need a project? or help? FredCode Sarl support you Student in the design of your project.</p></div>
+      <div class="grid grid-col-1 md:grid-cols-4 gap-5 justify-center pt-5  "  >
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary rounded-xl">
+          <div class="flex flex-col justify-center text-center  ">
+            <p class="text-xl font-medium">Toke</p>
+            <p class="text-l text-gray-400">Mobile - Flutter</p>
+          </div>
+          <div class="flex flex-col justify-center text-center border border-onSecondary border-t-gray-200 mt-5 ">
+            <p class="text-xs text-gray-400">Presence management application </p>
+            <p class="text-xs text-gray-400">User by : 3 Entreprises </p>
           </div>
         </div>
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-amber-800 w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-amber-800 rounded">
-                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">Toke</h1>
-                <h1 class="font-light">IMEDIATIS SARL</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>Application for managing attendance and leave requests</p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary  rounded-xl">
+          <div class="flex flex-col justify-center text-center ">
+            <p class="text-xl font-medium">Topup</p>
+            <p class="text-l text-gray-400">Mobile - Flutter</p>
+          </div>
+          <div class="flex flex-col justify-center text-center border border-onSecondary border-t-gray-200 mt-5 ">
+            <p class="text-xs text-gray-400">Application for performing Canal+ activities,  </p>
+            <p class="text-xs text-gray-400">User by : General public </p>
           </div>
         </div>
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-primary w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-primary">
-                <p class="font-bold p-2 text-2xl text-onSecondary">P</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">Pricera</h1>
-                <h1 class="font-light">IMEDIATIS SARL</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>Application for tracking the price and competitive environment</p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary  rounded-xl">
+          <div class="flex flex-col justify-center text-center ">
+            <p class="text-xl font-medium">Microware</p>
+            <p class="text-l text-gray-400">Mobile - Flutter</p>
+          </div>
+          <div class="flex flex-col justify-center text-center border border-onSecondary border-t-gray-200 mt-5 ">
+            <p class="text-xs text-gray-400">Application for drug sales, inventory management, and customer relations</p>
+            <p class="text-xs text-gray-400">User by : 1 Pharmacy </p>
           </div>
         </div>
-      </div>
-      <p class="font-bold"> Collaborations : </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-onPrimary w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-onPrimary rounded">
-                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">Topup +</h1>
-                <h1 class="font-light">IMEDIATIS SARL</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>
-                Mobile application for performing Canal+ activities, resubscribing, adding options,
-                upgrading
-              </p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary  rounded-xl">
+          <div class="flex flex-col justify-center text-center ">
+            <p class="text-xl font-medium">BuildTrack</p>
+            <p class="text-l text-gray-400">Api - PHP</p>
+          </div>
+          <div class="flex flex-col justify-center text-center border border-onSecondary border-t-gray-200 mt-5 ">
+            <p class="text-xs text-gray-400">Construction store inventory management application</p>
+            <p class="text-xs text-gray-400">User by : 0 </p>
           </div>
         </div>
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-amber-800 w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-amber-800 rounded">
-                <p class="font-bold p-2 text-2xl text-onSecondary">T</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">Toke</h1>
-                <h1 class="font-light">IMEDIATIS SARL</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>Application for managing attendance and leave requests</p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary  rounded-xl">
+          <div class="flex flex-col justify-center text-center ">
+            <p class="text-xl font-medium">Votme</p>
+            <p class="text-l text-gray-400">Web - VueJs</p>
+          </div>
+          <div class="flex flex-col justify-center text-center border border-onSecondary border-t-gray-200 mt-5 ">
+            <p class="text-xs text-gray-400">Paid online voting web application</p>
+            <p class="text-xs text-gray-400">User by : General Public </p>
           </div>
         </div>
-        <div class="pt-5">
-          <div class="bg-onSecondary rounded">
-            <div class="bg-primary w-full h-35 justify-center flex items-center rounded">
-              <p class="text-onSecondary">Photo du project</p>
-            </div>
-            <div class="p-5 flex gap-2">
-              <div class="bg-primary">
-                <p class="font-bold p-2 text-2xl text-onSecondary">P</p>
-              </div>
-              <div>
-                <h1 class="font-bold text-xl">Pricera</h1>
-                <h1 class="font-light">IMEDIATIS SARL</h1>
-              </div>
-            </div>
-            <div class="px-5 pb-2">
-              <p>Application for tracking the price and competitive environment</p>
-            </div>
-            <div class="flex px-5 gap-2 pb-2">
-              <a href="https://play.google.com/store/apps/details?id=cm.topup.retailer">
-                <img src="../assets/icon/android.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-              <a href="https://apps.apple.com/cm/app/topup-retailers/id6448353738">
-                <img src="../assets/icon/ios.svg" alt="Logo" class="w-6 h-6" />
-              </a>
-            </div>
-            <div class="p-4">
-              <div
-                class="border bg-onPrimary text-onSecondary items-center text-center bg rounded border-onPrimary hover:bg-greenCustom hover:text-onSecondary hover:border-onSecondary"
-              >
-                <p class="font-bold text-xl p-2">View more...</p>
-              </div>
-            </div>
+        <div class="flex justify-center flex-col bg-onSecondary p-5 shadow-xs shadow-onPrimary  rounded-xl">
+          <div class="flex flex-col justify-center text-center ">
+            <p class="text-xl font-medium">Your Project</p>
+            <p class="text-l text-gray-400">Give us your new project</p>
           </div>
+          <div class="flex flex-col justify-center text-center mt-5">
+            <a
+              href="https://wa.me/237672846994?text=Salut%20FredCode%2C%20j'ai%20besoin%20de%20vos%20prestations"
+              target="_blank"
+              class="bg-primary text-onSecondary rounded-2xl p-1"
+            >
+              +
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
